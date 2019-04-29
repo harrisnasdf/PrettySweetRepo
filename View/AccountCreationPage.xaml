@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoniHealth.View.AccountCreationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="fName" Text="First Name" />
+            <Entry x:Name="fNameEntry" Text="First Name" />
+            <Label x:Name="lName" Text="Last Name"/>
+            <Entry x:Name="lNameENtry" Text="Last Name" />
+            <Label x:Name="emailAddress" Text="Email Address" />
+            <Entry x:Name="emailAddressEntry" Text="Email Address" />
+            <Label x:Name="pw" Text="Password" />
+            <Entry x:Name="pwEntry" Text="Password" />
+            <Button x:Name="create" Text="Create" Clicked="createAcctProcedure" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
